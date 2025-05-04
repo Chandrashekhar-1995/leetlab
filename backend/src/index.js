@@ -24,14 +24,16 @@ app.get("/", (req,res) => {
 
 
 // import routes
-import healthCheckRoutes from "./routes/healthCheck.routes";
+import healthCheckRoutes from "./routes/healthCheck.routes.js";
+import authRoutes from "./routes/auth.routes.js";
 
 app.use("/api/v1/healthcheck", healthCheckRoutes);
+app.use("/api/v1/auth", authRoutes);
 
 
 
 // Error Handler Middleware (must be after all routes)
-import { errorHandler } from "./middlewares/errorHandler.middleware";
+import { errorHandler } from "./middlewares/errorHandler.middleware.js";
 app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server is running on port: ${PORT}`));
