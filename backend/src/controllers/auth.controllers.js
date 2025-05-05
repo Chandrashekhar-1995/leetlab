@@ -90,9 +90,9 @@ const login = asyncHandler( async (req, res, next) => {
 
         res.cookie("jwt", token, {
             httpOnly:true,
-            sameSite:"strict",
             secure:process.env.NODE_ENV !=="devlopment",
-            maxAge: 1000*60*60*24*7,
+            sameSite: "strict",
+            maxAge: 7 * 24 * 60 * 60 * 1000
         })
 
         res.status(201).json(
