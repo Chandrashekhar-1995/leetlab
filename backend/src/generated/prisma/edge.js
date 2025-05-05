@@ -136,7 +136,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\hp\\Desktop\\Code Playground\\chai aur code\\leetlab\\backend\\src\\generated\\prisma",
+      "value": "C:\\Users\\jmbdg\\Desktop\\Code Playground\\Chay aur Code\\leetlab\\backend\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -150,7 +150,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\hp\\Desktop\\Code Playground\\chai aur code\\leetlab\\backend\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\jmbdg\\Desktop\\Code Playground\\Chay aur Code\\leetlab\\backend\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
